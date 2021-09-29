@@ -40,8 +40,7 @@ public class DatabaseLoader implements ApplicationRunner {
                 new Author("sholderness", "sarah","Holderness", "password"),
                 new Author("tbell", "Tom","Bell", "password"),
                 new Author("efisher", "Eric","Fisher", "password"),
-                new Author("csouza", "Carlos","Souza", "password"),
-                new Author("mfaia", "Mohd","Faizan", "password")
+                new Author("csouza", "Carlos","Souza", "password")
         ));
 
         authorRepository.saveAll(authors);
